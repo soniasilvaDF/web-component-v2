@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Icons-DF;
+    src: url('https://doutorfinancas.github.io/df-ui/Icons-DF.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+[class*=" df-icon-"],
+[class^=df-icon-] {
+    font-family: Icons-DF, sans-serif !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+.df-icon-close:before {
+    content: "\e966";
+}
+
+.float-right {
+    float: right;
+}
+
+.banner {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    background: #f9f9f9;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+
+.banner.alert {
+    background:yellow;
+}
+
+.banner.error {
+    background:red;
+    color:white;
+    padding:1rem;
+}
+
+.banner h2 {
+    margin: 0 0 0.5rem 0;
+    color: #007acc;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+}
